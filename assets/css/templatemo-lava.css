@@ -973,7 +973,7 @@ footer
     text-align: center;
   }
   footer .footer-content {
-    padding: 60px 0px!important;
+    padding: 0px 0px!important;
   }
 }
 
@@ -1234,3 +1234,25 @@ preloader
     opacity: 0;
   }
 }
+
+@media (max-width: 650px) {
+  .logo{
+    display: flex;
+  }
+  .sol {
+    font-size: x-small;
+    margin-top: 10px;
+  }
+  .header-area{
+    background-color: rgba(247, 247, 247, 0.75);
+  }
+  .right-content{
+    background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
+    padding-top: 40px;
+  }
+  .social-mobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+} 
